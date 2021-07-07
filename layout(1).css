@@ -1,0 +1,110 @@
+a:hover, a:focus {
+    color: #145683;
+}
+
+
+a.primary-button, a.secondary-button, a.info-button, a.order-button {
+    color: #fff;
+}
+
+.bb-accordion-title::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAABgCAMAAAAw2EJmAAAANlBMVEUTWYqAf4D09PT///+hoKGjpn7l5OTX1tbt7Ozf3t6YmJiDi3fQz8/BwcG5uLiYn50bXYmIiIioY9huAAAAa0lEQVRIx+3RuwrAIAyF4TbmYu39/V+2cXARAl0CEfyHs3wgAZfVKDwgiC+IyAZZ9+wAWtIBIl6w6RbXc18sAf9jwm+AGpoQ7dxQMGyU2BeYOSfQPTpILe6AiO6UdXfXcx99fzZwUCMbZmYfQ6QGtNsSEz4AAAAASUVORK5CYII=');
+}
+
+#navigation a:hover,
+#categories .sub-menu a:hover,
+#categories .category:hover .item {
+    color: #145683;
+}
+
+#categories .item:before {
+    background-image: url('/media/topup/recharge/default/images/layout/layout-icons.png');
+}
+
+#categories .item.callcredit:before {
+    background-position: -2px -5px;
+}
+
+#categories .item.entertainment:before {
+    background-position: -2px -88px;
+}
+
+#categories .item.creditcards:before {
+    background-position: -2px -45px;
+}
+
+#categories .item.gamecards:before {
+    background-position: -2px -129px;
+}
+
+#toggle-navigation {
+    background-color: #145683;
+}
+
+footer .header {
+    background-image: url('/media/topup/recharge/default/images/layout/layout-icons.png');
+}
+
+footer .header.twitter {
+    background-position: 0 -181px;
+}
+
+footer .header.news {
+    background-position: 1px -228px;
+}
+
+#social-media .icon.facebook:hover,
+#social-media .icon.twitter:hover,
+#social-media .icon.google:hover {
+    background-image: url('/media/topup/recharge/default/images/layout/layout-icons.png');
+}
+
+#social-media .icon.facebook:hover {
+    background-position: 0 -395px;
+}
+
+#social-media .icon.twitter:hover {
+    background-position: 0 -465px;
+}
+
+#social-media .icon.google:hover {
+    background-position: 0 -535px;
+}
+
+#usps .usp {
+    background-image: url('/media/topup/recharge/default/images/layout/layout-icons.png?v=1');
+    background-position: -5px -265px;
+}
+
+.provider:hover .title {
+    background-color: #145683;
+}
+
+.info-block.promotion:before {
+    background-image: url('/media/topup/recharge/shop/images/product/product-promotion.png?v=1');
+}
+
+@media (min-width: 768px) {
+
+    #navigation {
+        text-align: right;
+    }
+
+    #redesign_notification {
+        background: #0E76BC;
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+    }
+
+    #redesign_notification span {
+        margin-right: 20px;
+    }
+
+    #redesign_notification a {
+        text-transform: uppercase;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+}
